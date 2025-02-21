@@ -1,0 +1,159 @@
+@import url(reset.css);
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#regForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 5px solid;
+    padding: 20px;
+    border-image: linear-gradient(20deg, red, blue) 1;
+    width: 300px;
+}
+
+div{
+    display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+div label {
+    width: 70px;
+    margin-right: 5px;
+  }
+#regName{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+#regTel{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+#regMail{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+#regPass{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 5px solid;
+    padding: 20px;
+    border-image: linear-gradient(20deg, red, blue) 1;
+    width: 300px;
+}
+
+#logMail{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+#logPass{
+    background: rgb(223,223,223);
+    border-radius: 5px;
+    height: 28px;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#signUp{
+    width: 120px;
+    height: 36px;
+    background-color: green;
+    color: white;
+    transition: transform 0.5s;
+}
+#signUp:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#signIn{
+    width: 120px;
+    height: 36px;
+    background-color: green;
+    color: white;
+    transition: transform 0.5s;
+}
+#signIn:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.logout-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+.logout-btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
