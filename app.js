@@ -20,6 +20,16 @@ signUpBtn.addEventListener('click', (elemet) =>{
     elemet.stopPropagation();
     elemet.preventDefault();
 
+if(regMail.value === "" ||
+    regName.value === "" ||
+    regPass.value === "" ||
+    regTel.value === ""){
+        showMess.innerText = "All fields are obligatory";
+        showMess.style.color = "red";
+        regForm.append(showMess);
+        return;
+}
+
     let isError = false;
 
     for(let i = 0; i < users.length; i++){
